@@ -126,9 +126,9 @@
       <polygon points="470.0,206.0 478.0,210.5 478.0,227.5 470.0,223.0" fill="#074D55"/>
       <polygon points="486.0,206.0 478.0,210.5 478.0,227.5 486.0,223.0" fill="#042A2E"/>
     </g>    <g class="rise" style="animation-delay:0.42s" filter="url(#sglow)">
-      <polygon points="494.0,162.5 502.0,167.0 494.0,171.5 486.0,167.0" fill="#FF6CF0"/>
-      <polygon points="486.0,167.0 494.0,171.5 494.0,227.5 486.0,223.0" fill="#8C3B84"/>
-      <polygon points="502.0,167.0 494.0,171.5 494.0,227.5 502.0,223.0" fill="#4C2048"/>
+      <polygon points="494.0,162.5 502.0,167.0 494.0,171.5 486.0,167.0" fill="#00F5FF"/>
+      <polygon points="486.0,167.0 494.0,171.5 494.0,227.5 486.0,223.0" fill="#00868C"/>
+      <polygon points="502.0,167.0 494.0,171.5 494.0,227.5 502.0,223.0" fill="#00494C"/>
     </g>    <g class="rise" style="animation-delay:0.42s">
       <polygon points="510.0,211.9 518.0,216.4 510.0,220.9 502.0,216.4" fill="#0C4A57"/>
       <polygon points="502.0,216.4 510.0,220.9 510.0,227.5 502.0,223.0" fill="#06282F"/>
@@ -358,9 +358,9 @@
       <polygon points="678.0,315.4 686.0,319.9 686.0,326.5 678.0,322.0" fill="#06282F"/>
       <polygon points="694.0,315.4 686.0,319.9 686.0,326.5 694.0,322.0" fill="#03161A"/>
     </g>    <g class="rise" style="animation-delay:0.73s" filter="url(#sglow)">
-      <polygon points="702.0,261.5 710.0,266.0 702.0,270.5 694.0,266.0" fill="#00F5FF"/>
-      <polygon points="694.0,266.0 702.0,270.5 702.0,326.5 694.0,322.0" fill="#00868C"/>
-      <polygon points="710.0,266.0 702.0,270.5 702.0,326.5 710.0,322.0" fill="#00494C"/>
+      <polygon points="702.0,261.5 710.0,266.0 702.0,270.5 694.0,266.0" fill="#FF6CF0"/>
+      <polygon points="694.0,266.0 702.0,270.5 702.0,326.5 694.0,322.0" fill="#8C3B84"/>
+      <polygon points="710.0,266.0 702.0,270.5 702.0,326.5 710.0,322.0" fill="#4C2048"/>
     </g>    <g class="rise" style="animation-delay:0.74s">
       <polygon points="614.0,310.2 622.0,314.7 614.0,319.2 606.0,314.7" fill="#0E8C9B"/>
       <polygon points="606.0,314.7 614.0,319.2 614.0,331.0 606.0,326.5" fill="#074D55"/>
@@ -411,7 +411,7 @@
 
     <rect x="800" y="128" width="3" height="30" rx="1.5" fill="#00F5FF"/>
     <text class="mono" x="814" y="144" font-size="9.5" fill="#5C6773" letter-spacing="1.5">TOTAL_CONTRIB</text>
-    <text class="mono" x="814" y="164" font-size="21" font-weight="800" fill="#00F5FF">750</text>
+    <text class="mono" x="814" y="164" font-size="21" font-weight="800" fill="#00F5FF">752</text>
     <rect x="800" y="182" width="3" height="30" rx="1.5" fill="#FF6CF0"/>
     <text class="mono" x="814" y="198" font-size="9.5" fill="#5C6773" letter-spacing="1.5">ACTIVE_DAYS</text>
     <text class="mono" x="814" y="218" font-size="21" font-weight="800" fill="#FF6CF0">88</text>
