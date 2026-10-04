@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="46" viewBox="0 0 170 46">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00F5FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#00F5FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-250%" y="-250%" width="600%" height="600%"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <style><![CDATA[
+      .mono { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .run  { animation: run 7s linear infinite; }
+      .pulse{ animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes run   { 0% {transform:translateX(-8px);opacity:0} 12% {opacity:.9} 88% {opacity:.9} 100% {transform:translateX(162px);opacity:0} }
+      @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.25} }
+    ]]></style>
+  </defs>
+  <rect x="1.5" y="6.5" width="167" height="34" rx="8" fill="#0A0E1A" fill-opacity="0.9" stroke="#1F2A37" stroke-width="1"/>
+  <rect x="1.5" y="6.5" width="167" height="2" rx="1" fill="url(#edge)" opacity="0.7"/>
+  <rect x="1.5" y="15" width="2.5" height="17" rx="1.25" fill="#00F5FF" opacity="0.9"/>
+  <g transform="translate(24,14) scale(0.75)" fill="#00F5FF"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></g>
+  <text class="mono" text-anchor="middle" x="104.0" y="29.5" font-size="12.5" fill="#E6EDF3" letter-spacing="2" font-weight="600">LINKEDIN</text>
+  <circle class="run" cx="6" cy="7.5" r="2.6" fill="#00F5FF" filter="url(#glow)" style="animation-delay:-0.0s"/>
+</svg>

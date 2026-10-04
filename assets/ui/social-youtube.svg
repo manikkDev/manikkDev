@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="46" viewBox="0 0 170 46">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF4444" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF4444" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FF4444" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-250%" y="-250%" width="600%" height="600%"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <style><![CDATA[
+      .mono { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .run  { animation: run 7s linear infinite; }
+      .pulse{ animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes run   { 0% {transform:translateX(-8px);opacity:0} 12% {opacity:.9} 88% {opacity:.9} 100% {transform:translateX(162px);opacity:0} }
+      @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.25} }
+    ]]></style>
+  </defs>
+  <rect x="1.5" y="6.5" width="167" height="34" rx="8" fill="#0A0E1A" fill-opacity="0.9" stroke="#1F2A37" stroke-width="1"/>
+  <rect x="1.5" y="6.5" width="167" height="2" rx="1" fill="url(#edge)" opacity="0.7"/>
+  <rect x="1.5" y="15" width="2.5" height="17" rx="1.25" fill="#FF4444" opacity="0.9"/>
+  <g transform="translate(24,14) scale(0.75)" fill="#FF4444"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></g>
+  <text class="mono" text-anchor="middle" x="104.0" y="29.5" font-size="12.5" fill="#E6EDF3" letter-spacing="2" font-weight="600">YOUTUBE</text>
+  <circle class="run" cx="6" cy="7.5" r="2.6" fill="#FF4444" filter="url(#glow)" style="animation-delay:-4.199999999999999s"/>
+</svg>
