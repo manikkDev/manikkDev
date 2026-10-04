@@ -11,7 +11,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Manikaraj Anburaj — Game Developer · Full-Stack Engineer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=60&lines=Building+worlds+in+Roblox%2C+Unity+and+Unreal+Engine;Shipping+MERN+%2B+TypeScript+products+end-to-end;2x+Hackathon+Winner+%7C+B.E.+Computer+Engineering;Turning+ideas+into+playable%2C+shippable+systems" alt="typing intro"/>
+<img src="./assets/tagline.svg" width="90%" alt="Building worlds in Roblox, Unity and Unreal Engine"/>
 
 <br/>
 
@@ -28,27 +28,12 @@
 <a href="mailto:manikraj8433@gmail.com"><img src="./assets/ui/social-email.svg" alt="Email"/></a>
 <a href="YOUR_PORTFOLIO_URL"><img src="./assets/ui/social-portfolio.svg" alt="Portfolio"/></a>
 <a href="YOUR_YOUTUBE_URL"><img src="./assets/ui/social-youtube.svg" alt="YouTube"/></a>
-<a href="https://github.com/manikkDev"><img src="./assets/ui/social-github.svg" alt="GitHub"/></a>
 
 </div>
 
 <br/>
 
-<!-- ============================================================ -->
-<!--  NAVIGATION                                                   -->
-<!-- ============================================================ -->
 
-<div align="center">
-
-<a href="#player-profile"><img src="./assets/ui/nav-01.svg" alt="01 player profile"/></a>
-<a href="#arsenal"><img src="./assets/ui/nav-02.svg" alt="02 arsenal"/></a>
-<a href="#featured-quests"><img src="./assets/ui/nav-03.svg" alt="03 featured quests"/></a>
-<a href="#achievements"><img src="./assets/ui/nav-04.svg" alt="04 achievements"/></a>
-<a href="#telemetry"><img src="./assets/ui/nav-05.svg" alt="05 telemetry"/></a>
-<a href="#roadmap"><img src="./assets/ui/nav-06.svg" alt="06 roadmap"/></a>
-<a href="#contact"><img src="./assets/ui/nav-07.svg" alt="07 contact"/></a>
-
-</div>
 
 <br/>
 
