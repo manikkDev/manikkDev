@@ -74,20 +74,12 @@
 
 <table>
 <tr>
-<td width="42%"><a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/thumbs/quest-1.png" width="100%" alt="67 Nights gameplay"/></a></td>
-<td width="58%"><a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/quests/quest-1-67nights.svg" width="100%" alt="67 Nights in the Forest"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/thumbs/quest-1.png" width="100%" alt="67 Nights in the Forest screenshot"/></a><a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/quests/quest-1-67nights.svg?v=3" width="100%" alt="67 Nights in the Forest"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/thumbs/quest-2.png" width="100%" alt="Arth Saathi — Enigma screenshot"/></a><a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/quests/quest-2-arthsaathi.svg?v=3" width="100%" alt="Arth Saathi — Enigma"/></a></td>
 </tr>
 <tr>
-<td width="58%"><a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/quests/quest-2-arthsaathi.svg" width="100%" alt="Arth Saathi — Enigma"/></a></td>
-<td width="42%"><a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/thumbs/quest-2.png" width="100%" alt="Arth Saathi screenshot"/></a></td>
-</tr>
-<tr>
-<td width="42%"><a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/thumbs/quest-3.png" width="100%" alt="Portfolio screenshot"/></a></td>
-<td width="58%"><a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/quests/quest-3-portfolio.svg" width="100%" alt="Portfolio Web"/></a></td>
-</tr>
-<tr>
-<td width="58%"><a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/quests/quest-4-neurofy.svg" width="100%" alt="Neurofy"/></a></td>
-<td width="42%"><a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/thumbs/quest-4.png" width="100%" alt="Neurofy screenshot"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/thumbs/quest-3.png" width="100%" alt="Portfolio Web screenshot"/></a><a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/quests/quest-3-portfolio.svg?v=3" width="100%" alt="Portfolio Web"/></a></td>
+<td width="50%" valign="top"><a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/thumbs/quest-4.png" width="100%" alt="Neurofy screenshot"/></a><a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/quests/quest-4-neurofy.svg?v=3" width="100%" alt="Neurofy"/></a></td>
 </tr>
 </table>
 
