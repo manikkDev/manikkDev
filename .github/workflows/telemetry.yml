@@ -1,0 +1,39 @@
+name: Telemetry Stats
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/gen-telemetry.py"
+      - ".github/scripts/telemetry-seed.json"
+      - "assets/telemetry.tpl.svg"
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Regenerate telemetry.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/gen-telemetry.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/telemetry.svg .github/scripts/telemetry-seed.json
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "chore: refresh telemetry stats"
+            git push
+          fi
