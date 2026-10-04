@@ -16,11 +16,11 @@
 <br/>
 
 <!-- Auto-refreshed daily by .github/workflows/statusbar.yml -->
-<img src="./assets/statusbar.svg?v=3" width="100%" alt="status bar"/>
+<img src="./assets/statusbar.svg?v=4" width="100%" alt="status bar"/>
 <!-- invisible pixel keeps the komarev view counter live without showing the stock badge -->
 <img src="https://komarev.com/ghpvc/?username=manikkDev" width="1" height="1" alt=""/>
 
-<br/><br/>
+<br/>
 
 <!-- TODO: replace YOUR_PORTFOLIO_URL and YOUR_YOUTUBE_URL -->
 
