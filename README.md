@@ -169,13 +169,7 @@
 
 ## `06` ROADMAP
 
-| Status                                                                                             | Quest                                 | Notes                                                             |
-| :------------------------------------------------------------------------------------------------- | :------------------------------------ | :---------------------------------------------------------------- |
-| <img src="https://img.shields.io/badge/ACTIVE-39FF14?style=flat-square&labelColor=0A0A0A" alt=""/> | **67 Nights in the Forest** — Phase 4 | Base building, rescue chain, day multiplier, win/loss, permadeath |
-| <img src="https://img.shields.io/badge/ACTIVE-39FF14?style=flat-square&labelColor=0A0A0A" alt=""/> | **Unreal Engine 5** deep-dive         | C++ gameplay framework, GAS, Niagara                              |
-| <img src="https://img.shields.io/badge/ACTIVE-39FF14?style=flat-square&labelColor=0A0A0A" alt=""/> | **Content creation**                  | Dev-logs and breakdowns on YouTube <!-- TODO: link -->            |
-| <img src="https://img.shields.io/badge/QUEUED-FFD700?style=flat-square&labelColor=0A0A0A" alt=""/> | **RPG project**                       | Cross-engine prototype: Roblox first, Unreal port                 |
-| <img src="https://img.shields.io/badge/QUEUED-FFD700?style=flat-square&labelColor=0A0A0A" alt=""/> | **Open-source Roblox tooling**        | Reusable Knit service patterns and Rojo templates                 |
+<img src="./assets/roadmap.svg" width="100%" alt="roadmap"/>
 
 <br/>
 

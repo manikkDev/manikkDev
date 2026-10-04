@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="392" viewBox="0 0 940 392">
+  <defs>
+    <linearGradient id="redge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00F5FF" stop-opacity="0"/><stop offset="0.5" stop-color="#39FF14" stop-opacity="0.8"/><stop offset="1" stop-color="#FF00FF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rsweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00F5FF" stop-opacity="0"/><stop offset="0.5" stop-color="#00F5FF" stop-opacity="0.10"/><stop offset="1" stop-color="#00F5FF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#39FF14" stop-opacity="0.7"/><stop offset="1" stop-color="#FFD700" stop-opacity="0.4"/></linearGradient>
+    <filter id="rglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <style><![CDATA[
+      .mono {font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace;}
+      .rowin {animation:rin .5s ease-out backwards;}
+      .pnode {animation:npulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}
+      .pulse {animation:p 2.2s ease-in-out infinite;}
+      .sweep {animation:swx 13s linear infinite;}
+      .run   {animation:rux 8s linear infinite;}
+      @keyframes rin {0% {opacity:0;transform:translateX(-14px)} 100% {opacity:1;transform:translateX(0)}}
+      @keyframes npulse {0%,100% {transform:scale(1);opacity:1} 50% {transform:scale(1.5);opacity:.5}}
+      @keyframes p   {0%,100% {opacity:1} 50% {opacity:.3}}
+      @keyframes swx {0% {transform:translateX(0);opacity:0} 10% {opacity:1} 90% {opacity:1} 100% {transform:translateX(900px);opacity:0}}
+      @keyframes rux {0% {transform:translateX(-8px);opacity:0} 12% {opacity:.9} 88% {opacity:.9} 100% {transform:translateX(900px);opacity:0}}
+    ]]></style>
+  </defs>
+  <rect x="8" y="8" width="924" height="376" rx="12" fill="#070A12" stroke="#1F2A37" stroke-width="1"/>
+  <rect x="8" y="8" width="924" height="2" rx="1" fill="url(#redge)" opacity="0.8"/>
+  <g stroke="#2A3A54" stroke-width="1.4" fill="none" opacity="0.9"><path d="M15 23 V15 H23"/><path d="M917 15 H925 V23"/><path d="M15 369 V377 H23"/><path d="M917 377 H925 V369"/></g>
+  <text class="mono" x="26" y="38" font-size="12" fill="#00F5FF" letter-spacing="3">ROADMAP.SYS</text>
+  <text class="mono" x="168" y="38" font-size="12" fill="#5C6773" letter-spacing="3">//</text>
+  <text class="mono" x="194" y="38" font-size="12" fill="#C9D1D9" letter-spacing="2.5">NEXT_OBJECTIVES</text>
+  <circle class="pulse" cx="862" cy="34" r="3" fill="#39FF14"/>
+  <text class="mono" x="910" y="38" font-size="11" fill="#5C6773" letter-spacing="1.5" text-anchor="end">3 ACTIVE · 2 QUEUED</text>
+  <line x1="20" y1="50" x2="920" y2="50" stroke="#1F2A37" stroke-width="1"/>
+  <line x1="52" y1="92" x2="52" y2="312" stroke="url(#rail)" stroke-width="1.5"/>
+  <g class="rowin" style="animation-delay:0.00s">
+    <text class="mono" x="26" y="108" font-size="10" fill="#5C6773">01</text>
+    <circle class="pnode" cx="52" cy="104" r="5" fill="#39FF14"/>
+    <text class="mono" x="86" y="103" font-size="14.5" font-weight="700" fill="#F0F6FC">67 Nights in the Forest</text>
+    <text class="mono" x="86" y="119" font-size="10.5" fill="#8B949E">Base building · rescue chain · day multiplier · win/loss · permadeath</text>
+    <text class="mono" x="796" y="108" font-size="9" fill="#5C6773" text-anchor="end" letter-spacing="1">PHASE 4</text>
+    <rect x="810" y="95" width="76" height="18" rx="9" fill="#39FF14" fill-opacity="0.12" stroke="#39FF14" stroke-opacity="0.5" stroke-width="1"/><text class="mono" x="848" y="107.5" font-size="9" font-weight="700" fill="#39FF14" text-anchor="middle" letter-spacing="1">ACTIVE</text>
+    <line x1="26" y1="130" x2="914" y2="130" stroke="#141B2B" stroke-width="1"/>
+  </g>
+  <g class="rowin" style="animation-delay:0.12s">
+    <text class="mono" x="26" y="160" font-size="10" fill="#5C6773">02</text>
+    <circle class="pnode" cx="52" cy="156" r="5" fill="#39FF14"/>
+    <text class="mono" x="86" y="155" font-size="14.5" font-weight="700" fill="#F0F6FC">Unreal Engine 5 deep-dive</text>
+    <text class="mono" x="86" y="171" font-size="10.5" fill="#8B949E">C++ gameplay framework · GAS · Niagara</text>
+    <text class="mono" x="796" y="160" font-size="9" fill="#5C6773" text-anchor="end" letter-spacing="1">LEARNING</text>
+    <rect x="810" y="147" width="76" height="18" rx="9" fill="#39FF14" fill-opacity="0.12" stroke="#39FF14" stroke-opacity="0.5" stroke-width="1"/><text class="mono" x="848" y="159.5" font-size="9" font-weight="700" fill="#39FF14" text-anchor="middle" letter-spacing="1">ACTIVE</text>
+    <line x1="26" y1="182" x2="914" y2="182" stroke="#141B2B" stroke-width="1"/>
+  </g>
+  <g class="rowin" style="animation-delay:0.24s">
+    <text class="mono" x="26" y="212" font-size="10" fill="#5C6773">03</text>
+    <circle class="pnode" cx="52" cy="208" r="5" fill="#39FF14"/>
+    <text class="mono" x="86" y="207" font-size="14.5" font-weight="700" fill="#F0F6FC">Content creation</text>
+    <text class="mono" x="86" y="223" font-size="10.5" fill="#8B949E">Dev-logs and breakdowns on YouTube</text>
+    <text class="mono" x="796" y="212" font-size="9" fill="#5C6773" text-anchor="end" letter-spacing="1">ON-GOING</text>
+    <rect x="810" y="199" width="76" height="18" rx="9" fill="#39FF14" fill-opacity="0.12" stroke="#39FF14" stroke-opacity="0.5" stroke-width="1"/><text class="mono" x="848" y="211.5" font-size="9" font-weight="700" fill="#39FF14" text-anchor="middle" letter-spacing="1">ACTIVE</text>
+    <line x1="26" y1="234" x2="914" y2="234" stroke="#141B2B" stroke-width="1"/>
+  </g>
+  <g class="rowin" style="animation-delay:0.36s">
+    <text class="mono" x="26" y="264" font-size="10" fill="#5C6773">04</text>
+    <circle cx="52" cy="260" r="4.5" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+    <text class="mono" x="86" y="259" font-size="14.5" font-weight="700" fill="#F0F6FC">RPG project</text>
+    <text class="mono" x="86" y="275" font-size="10.5" fill="#8B949E">Cross-engine prototype: Roblox first, Unreal port</text>
+    <text class="mono" x="796" y="264" font-size="9" fill="#5C6773" text-anchor="end" letter-spacing="1">CONCEPT</text>
+    <rect x="810" y="251" width="76" height="18" rx="9" fill="#FFD700" fill-opacity="0.12" stroke="#FFD700" stroke-opacity="0.5" stroke-width="1"/><text class="mono" x="848" y="263.5" font-size="9" font-weight="700" fill="#FFD700" text-anchor="middle" letter-spacing="1">QUEUED</text>
+    <line x1="26" y1="286" x2="914" y2="286" stroke="#141B2B" stroke-width="1"/>
+  </g>
+  <g class="rowin" style="animation-delay:0.48s">
+    <text class="mono" x="26" y="316" font-size="10" fill="#5C6773">05</text>
+    <circle cx="52" cy="312" r="4.5" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+    <text class="mono" x="86" y="311" font-size="14.5" font-weight="700" fill="#F0F6FC">Open-source Roblox tooling</text>
+    <text class="mono" x="86" y="327" font-size="10.5" fill="#8B949E">Reusable Knit service patterns and Rojo templates</text>
+    <text class="mono" x="796" y="316" font-size="9" fill="#5C6773" text-anchor="end" letter-spacing="1">PLANNING</text>
+    <rect x="810" y="303" width="76" height="18" rx="9" fill="#FFD700" fill-opacity="0.12" stroke="#FFD700" stroke-opacity="0.5" stroke-width="1"/><text class="mono" x="848" y="315.5" font-size="9" font-weight="700" fill="#FFD700" text-anchor="middle" letter-spacing="1">QUEUED</text>
+    <line x1="26" y1="338" x2="914" y2="338" stroke="#141B2B" stroke-width="1"/>
+  </g>
+  <rect class="sweep" x="30" y="60" width="40" height="300" fill="url(#rsweep)" opacity="0"/>
+  <line x1="20" y1="356" x2="920" y2="356" stroke="#141B2B" stroke-width="1"/>
+  <text class="mono" x="30" y="372" font-size="9.5" fill="#5C6773" letter-spacing="1.5">// shipping beats planning — last objective becomes the first commit</text>
+  <text class="mono" x="910" y="372" font-size="9.5" fill="#5C6773" letter-spacing="1" text-anchor="end">TIMELINE: ROLLING</text>
+  <circle class="run" cx="10" cy="9" r="2.2" fill="#00F5FF" filter="url(#rglow)"/>
+</svg>
