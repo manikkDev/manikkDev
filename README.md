@@ -59,52 +59,7 @@
 
 ## `02` ARSENAL
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/GAME%20ENGINES-00F5FF?style=flat-square&labelColor=0A0A0A" alt="engines"/>
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=unity,unreal,godot,blender&theme=dark" alt="engines"/></a>
-<img src="https://img.shields.io/badge/Roblox%20Studio-0A0A0A?style=for-the-badge&logo=roblox&logoColor=FFFFFF" alt="roblox" height="28"/>
-<img src="https://img.shields.io/badge/Rojo-0A0A0A?style=for-the-badge&logo=rust&logoColor=FF6B35" alt="rojo" height="28"/>
-<img src="https://img.shields.io/badge/Knit-0A0A0A?style=for-the-badge&logo=roblox&logoColor=00F5FF" alt="knit" height="28"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/LANGUAGES-FF00FF?style=flat-square&labelColor=0A0A0A" alt="languages"/>
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=lua,cs,cpp,ts,js,python,html,css,bash&theme=dark" alt="languages"/></a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/FRONTEND-FFD700?style=flat-square&labelColor=0A0A0A" alt="frontend"/>
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,threejs,figma&theme=dark" alt="frontend"/></a>
-<img src="https://img.shields.io/badge/Framer%20Motion-0A0A0A?style=for-the-badge&logo=framer&logoColor=FF00FF" alt="framer" height="28"/>
-<img src="https://img.shields.io/badge/shadcn%2Fui-0A0A0A?style=for-the-badge&logo=shadcnui&logoColor=FFFFFF" alt="shadcn" height="28"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/BACKEND%20%26%20DATA-39FF14?style=flat-square&labelColor=0A0A0A" alt="backend"/>
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,neo4j,firebase,mysql,redis&theme=dark" alt="backend"/></a>
-<img src="https://img.shields.io/badge/Socket.IO-0A0A0A?style=for-the-badge&logo=socketdotio&logoColor=FFFFFF" alt="socketio" height="28"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/AI%20%2F%20ML-00F5FF?style=flat-square&labelColor=0A0A0A" alt="ai"/>
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" alt="ml"/></a>
-<img src="https://img.shields.io/badge/Flower%20FL-0A0A0A?style=for-the-badge&logo=python&logoColor=FFD700" alt="flower" height="28"/>
-<img src="https://img.shields.io/badge/XGBoost-0A0A0A?style=for-the-badge&logo=python&logoColor=39FF14" alt="xgboost" height="28"/>
-<img src="https://img.shields.io/badge/LLM%20Integration-0A0A0A?style=for-the-badge&logo=huggingface&logoColor=FFD700" alt="llm" height="28"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/DEVOPS%20%26%20TOOLING-FF00FF?style=flat-square&labelColor=0A0A0A" alt="devops"/>
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel,postman,vscode,linux&theme=dark" alt="devops"/></a>
-
-</div>
+<img src="./assets/arsenal.svg" width="100%" alt="tech arsenal loadout"/>
 
 <br/>
 
