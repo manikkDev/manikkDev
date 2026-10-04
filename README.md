@@ -72,28 +72,29 @@
 
 ## `03` FEATURED QUESTS
 
-<a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/quests/quest-1-67nights.svg" width="49%" alt="67 Nights in the Forest"/></a>
-<a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/quests/quest-2-arthsaathi.svg" width="49%" alt="Arth Saathi — Enigma"/></a><br/>
-<a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/quests/quest-3-portfolio.svg" width="49%" alt="Portfolio Web"/></a>
-<a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/quests/quest-4-neurofy.svg" width="49%" alt="Neurofy"/></a>
+<table>
+<tr>
+<td width="42%"><a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/thumbs/quest-1.png" width="100%" alt="67 Nights gameplay"/></a></td>
+<td width="58%"><a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/quests/quest-1-67nights.svg" width="100%" alt="67 Nights in the Forest"/></a></td>
+</tr>
+<tr>
+<td width="58%"><a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/quests/quest-2-arthsaathi.svg" width="100%" alt="Arth Saathi — Enigma"/></a></td>
+<td width="42%"><a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/thumbs/quest-2.png" width="100%" alt="Arth Saathi screenshot"/></a></td>
+</tr>
+<tr>
+<td width="42%"><a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/thumbs/quest-3.png" width="100%" alt="Portfolio screenshot"/></a></td>
+<td width="58%"><a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/quests/quest-3-portfolio.svg" width="100%" alt="Portfolio Web"/></a></td>
+</tr>
+<tr>
+<td width="58%"><a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/quests/quest-4-neurofy.svg" width="100%" alt="Neurofy"/></a></td>
+<td width="42%"><a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/thumbs/quest-4.png" width="100%" alt="Neurofy screenshot"/></a></td>
+</tr>
+</table>
 
 <details>
-<summary><b>Open the full quest log (more projects)</b></summary>
+<summary><b>Open the full mission log (all repositories)</b></summary>
 <br/>
-
-| Project                 | Domain                                                                                                            | Stack                                  | Links                                                                                                                                                                                          |
-| :---------------------- | :---------------------------------------------------------------------------------------------------------------- | :------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Aarogya Nigrani**     | Health monitoring dashboard with ML service                                                                       | TypeScript, Node, Python               | [frontend](https://github.com/manikkDev/aarogya-nigrani-frontend) · [backend](https://github.com/manikkDev/aarogya-nigrani-backend) · [ml](https://github.com/manikkDev/aarogya-nigrani-ai-ml) |
-| **Juris AI**            | Judicial AI navigator                                                                                             | React, TS, shadcn/ui, Firebase, Python | [frontend](https://github.com/manikkDev/juris-ai-frontend) · [backend](https://github.com/manikkDev/juris-ai-backend) · [ml](https://github.com/manikkDev/juris-ai-ml)                         |
-| **LegalAssist**         | LLM-powered legal assistant for rural India: document analysis, regional-language voice guidance, scam prevention | JavaScript, LLM                        | [repo](https://github.com/manikkDev/LegalAssist)                                                                                                                                               |
-| **Luna AML**            | Anti-money-laundering analytics                                                                                   | JavaScript, Python                     | [app](https://github.com/manikkDev/luna-aml)                                                                                                                                                   |
-| **Hear With Heart**     | Accessibility-focused web platform                                                                                | JavaScript, Node                       | [frontend](https://github.com/manikkDev/hear-with-heart-frontend) · [backend](https://github.com/manikkDev/hear-with-heart-backend)                                                            |
-| **Urban Mobility**      | Smart city mobility platform                                                                                      | JavaScript, Node                       | [frontend](https://github.com/manikkDev/urban-mobility-frontend) · [backend](https://github.com/manikkDev/urban-mobility-backend)                                                              |
-| **HealthWell / WeCare** | Health assistant prototypes                                                                                       | MERN                                   | [HealthWell](https://github.com/manikkDev/HealthWell-Frontend) · [WeCare](https://github.com/manikkDev/WeCare-Frontend)                                                                        |
-| **Context Decay**       | TypeScript experiment on context handling                                                                         | TypeScript                             | [repo](https://github.com/manikkDev/Context-Decay)                                                                                                                                             |
-| **Jarvis Mini**         | Voice assistant                                                                                                   | Python                                 | [repo](https://github.com/manikkDev/Jarvis-Mini)                                                                                                                                               |
-| **Unity Projects**      | Early game prototypes                                                                                             | Unity, C#                              | [repo](https://github.com/manikkDev/Unity-Projects)                                                                                                                                            |
-
+<img src="./assets/questlog.svg" width="100%" alt="mission archive — full repository log"/>
 </details>
 
 <br/>
