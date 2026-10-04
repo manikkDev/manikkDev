@@ -144,8 +144,8 @@
 
 <br/><br/>
 
-<!-- Generated daily by .github/workflows/telemetry.yml -->
-<img src="./assets/contrib.svg?v=1" width="100%" alt="contribution grid"/>
+<!-- Generated daily by .github/workflows/profile-3d.yml -->
+<img src="./profile-3d-contrib/profile-neon.svg" width="100%" alt="3D contribution graph"/>
 
 <br/>
 
