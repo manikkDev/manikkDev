@@ -1,0 +1,36 @@
+name: Status Bar Stats
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/gen-statusbar.sh"
+      - "assets/statusbar.tpl.svg"
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Regenerate statusbar.svg
+        run: bash .github/scripts/gen-statusbar.sh
+
+      - name: Commit if changed
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/statusbar.svg
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "chore: refresh status bar stats"
+            git push
+          fi
