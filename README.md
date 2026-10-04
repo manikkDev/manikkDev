@@ -11,7 +11,7 @@
 
 <img src="./assets/header.svg" width="100%" alt="Manikaraj Anburaj — Game Developer · Full-Stack Engineer"/>
 
-<img src="./assets/tagline.svg" width="90%" alt="Building worlds in Roblox, Unity and Unreal Engine"/>
+<img src="./assets/tagline.svg" width="100%" alt="Building worlds in Roblox, Unity and Unreal Engine"/>
 
 <br/>
 
