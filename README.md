@@ -24,11 +24,11 @@
 
 <!-- TODO: replace YOUR_PORTFOLIO_URL and YOUR_YOUTUBE_URL -->
 
-<a href="https://www.linkedin.com/in/manikaraj-anburaj-4550ba354"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=00F5FF" alt="LinkedIn"/></a>
-<a href="mailto:manikraj8433@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=FF00FF" alt="Email"/></a>
-<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=FFD700" alt="Portfolio"/></a>
-<a href="YOUR_YOUTUBE_URL"><img src="https://img.shields.io/badge/YouTube-0A0A0A?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="YouTube"/></a>
-<a href="https://github.com/manikkDev"><img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=39FF14" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/manikaraj-anburaj-4550ba354"><img src="./assets/ui/social-linkedin.svg" alt="LinkedIn"/></a>
+<a href="mailto:manikraj8433@gmail.com"><img src="./assets/ui/social-email.svg" alt="Email"/></a>
+<a href="YOUR_PORTFOLIO_URL"><img src="./assets/ui/social-portfolio.svg" alt="Portfolio"/></a>
+<a href="YOUR_YOUTUBE_URL"><img src="./assets/ui/social-youtube.svg" alt="YouTube"/></a>
+<a href="https://github.com/manikkDev"><img src="./assets/ui/social-github.svg" alt="GitHub"/></a>
 
 </div>
 
@@ -40,13 +40,13 @@
 
 <div align="center">
 
-<a href="#player-profile"><img src="https://img.shields.io/badge/01-PLAYER%20PROFILE-00F5FF?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
-<a href="#arsenal"><img src="https://img.shields.io/badge/02-ARSENAL-FF00FF?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
-<a href="#featured-quests"><img src="https://img.shields.io/badge/03-FEATURED%20QUESTS-FFD700?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
-<a href="#achievements"><img src="https://img.shields.io/badge/04-ACHIEVEMENTS-39FF14?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
-<a href="#telemetry"><img src="https://img.shields.io/badge/05-TELEMETRY-00F5FF?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
-<a href="#roadmap"><img src="https://img.shields.io/badge/06-ROADMAP-FF00FF?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
-<a href="#contact"><img src="https://img.shields.io/badge/07-CONTACT-FFD700?style=flat-square&labelColor=0A0A0A" alt="nav"/></a>
+<a href="#player-profile"><img src="./assets/ui/nav-01.svg" alt="01 player profile"/></a>
+<a href="#arsenal"><img src="./assets/ui/nav-02.svg" alt="02 arsenal"/></a>
+<a href="#featured-quests"><img src="./assets/ui/nav-03.svg" alt="03 featured quests"/></a>
+<a href="#achievements"><img src="./assets/ui/nav-04.svg" alt="04 achievements"/></a>
+<a href="#telemetry"><img src="./assets/ui/nav-05.svg" alt="05 telemetry"/></a>
+<a href="#roadmap"><img src="./assets/ui/nav-06.svg" alt="06 roadmap"/></a>
+<a href="#contact"><img src="./assets/ui/nav-07.svg" alt="07 contact"/></a>
 
 </div>
 
@@ -382,10 +382,10 @@ PASSIVES
 
 <!-- TODO: replace YOUR_PORTFOLIO_URL and YOUR_YOUTUBE_URL -->
 
-<a href="https://www.linkedin.com/in/manikaraj-anburaj-4550ba354"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=00F5FF" alt="LinkedIn"/></a>
-<a href="mailto:manikraj8433@gmail.com"><img src="https://img.shields.io/badge/manikraj8433%40gmail.com-0A0A0A?style=for-the-badge&logo=gmail&logoColor=FF00FF" alt="Email"/></a>
-<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Visit%20Portfolio-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=FFD700" alt="Portfolio"/></a>
-<a href="YOUR_YOUTUBE_URL"><img src="https://img.shields.io/badge/Watch%20on%20YouTube-0A0A0A?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="YouTube"/></a>
+<a href="https://www.linkedin.com/in/manikaraj-anburaj-4550ba354"><img src="./assets/ui/social-linkedin.svg" alt="LinkedIn"/></a>
+<a href="mailto:manikraj8433@gmail.com"><img src="./assets/ui/social-email.svg" alt="Email"/></a>
+<a href="YOUR_PORTFOLIO_URL"><img src="./assets/ui/social-portfolio.svg" alt="Portfolio"/></a>
+<a href="YOUR_YOUTUBE_URL"><img src="./assets/ui/social-youtube.svg" alt="YouTube"/></a>
 
 <br/><br/>
 
