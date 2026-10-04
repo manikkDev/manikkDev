@@ -15,11 +15,10 @@
 
 <br/>
 
-<a href="https://github.com/manikkDev"><img src="https://komarev.com/ghpvc/?username=manikkDev&style=for-the-badge&color=00F5FF&label=PROFILE+VIEWS&labelColor=0A0A0A" alt="views"/></a>
-<a href="https://github.com/manikkDev?tab=followers"><img src="https://img.shields.io/github/followers/manikkDev?style=for-the-badge&logo=github&logoColor=00F5FF&color=0A0A0A&labelColor=0A0A0A&label=FOLLOWERS" alt="followers"/></a>
-<a href="https://github.com/manikkDev?tab=repositories"><img src="https://img.shields.io/github/stars/manikkDev?style=for-the-badge&logo=github&logoColor=FFD700&color=0A0A0A&labelColor=0A0A0A&label=STARS&affiliations=OWNER" alt="stars"/></a>
-<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-39FF14?style=for-the-badge&labelColor=0A0A0A" alt="open to work"/>
-<img src="https://img.shields.io/badge/BASE-NAVI%20MUMBAI%2C%20IN-FF00FF?style=for-the-badge&labelColor=0A0A0A" alt="location"/>
+<!-- Auto-refreshed daily by .github/workflows/statusbar.yml -->
+<img src="./assets/statusbar.svg" width="100%" alt="status bar"/>
+<!-- invisible pixel keeps the komarev view counter live without showing the stock badge -->
+<img src="https://komarev.com/ghpvc/?username=manikkDev" width="1" height="1" alt=""/>
 
 <br/><br/>
 
