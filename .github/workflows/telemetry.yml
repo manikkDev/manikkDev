@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add assets/telemetry.svg .github/scripts/telemetry-seed.json
+          git add assets/telemetry.svg assets/contrib.svg .github/scripts/telemetry-seed.json
           if git diff --cached --quiet; then
             echo "no change"
           else
