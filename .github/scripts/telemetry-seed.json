@@ -1,0 +1,14 @@
+{
+  "stars": 0, "commits": 667, "prs": 31, "issues": 1, "collabs": 4,
+  "total": 743, "cur": 1, "long": 16, "long_dates": "AUG 01-AUG 16",
+  "since": 2024,
+  "langs": [
+    {"name": "JavaScript", "pct": 33.95},
+    {"name": "TypeScript", "pct": 27.77},
+    {"name": "Luau", "pct": 11.21},
+    {"name": "HTML", "pct": 10.66},
+    {"name": "CSS", "pct": 9.58},
+    {"name": "Python", "pct": 6.74}
+  ],
+  "weekly": [2,4,3,6,5,8,4,7,10,6,9,12,8,14,11,9,16,13,10,15,12,18,9,14,11,7]
+}

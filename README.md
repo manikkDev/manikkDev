@@ -140,12 +140,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=manikkDev&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0A0A0A&title_color=00F5FF&icon_color=FF00FF&text_color=E6EDF3&border_color=1F2A37&ring_color=39FF14&custom_title=Combat%20Statistics" height="190" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manikkDev&layout=compact&langs_count=10&hide=jupyter%20notebook&bg_color=0A0A0A&title_color=00F5FF&text_color=E6EDF3&border_color=1F2A37&custom_title=Language%20Loadout" height="190" alt="languages"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=manikkDev&background=0A0A0A&border=1F2A37&stroke=00F5FF&ring=FF00FF&fire=FFD700&currStreakNum=FFFFFF&sideNums=00F5FF&currStreakLabel=FF00FF&sideLabels=E6EDF3&dates=8B949E&date_format=M%20j%5B%2C%20Y%5D" alt="streak"/>
+<img src="./assets/telemetry.svg?v=1" width="100%" alt="telemetry — combat stats, engagement streak, language loadout"/>
 
 <br/><br/>
 

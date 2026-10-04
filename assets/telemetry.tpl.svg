@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="tedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00F5FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FF00FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="tglow" x="-250%" y="-250%" width="600%" height="600%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <style><![CDATA[
+      .mono  { font-family:'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace; }
+      .boot  { animation: boot .5s ease-out backwards; }
+      .seg   { animation: seg .45s cubic-bezier(.2,.8,.3,1) backwards; transform-box: fill-box; transform-origin: left center; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      .flame { animation: flame 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .run   { animation: run 8s linear infinite; }
+      @keyframes boot  { 0% {opacity:0;transform:translateY(6px)} 100% {opacity:1;transform:translateY(0)} }
+      @keyframes seg   { 0% {opacity:0;transform:scaleX(0)} 100% {opacity:1;transform:scaleX(1)} }
+      @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.3} }
+      @keyframes flame { 0%,100% {transform:scale(1)} 50% {transform:scale(1.25)} }
+      @keyframes run   { 0% {transform:translateX(-8px);opacity:0} 12% {opacity:.9} 88% {opacity:.9} 100% {transform:translateX(1150px);opacity:0} }
+    ]]></style>
+  </defs>
+
+  <rect x="10" y="10" width="1180" height="380" rx="12" fill="#070A12" stroke="#1F2A37" stroke-width="1"/>
+  <rect x="10" y="10" width="1180" height="2" rx="1" fill="url(#tedge)" opacity="0.8"/>
+  <g stroke="#2A3A54" stroke-width="1.4" fill="none" opacity="0.9">
+    <path d="M18 26 V18 H26"/><path d="M1174 18 H1182 V26"/>
+    <path d="M18 374 V382 H26"/><path d="M1174 382 H1182 V374"/>
+  </g>
+
+  <text class="mono" x="30" y="42" font-size="12" fill="#5C6773" letter-spacing="3">TELEMETRY.SYS</text>
+  <text class="mono" x="160" y="42" font-size="12" fill="#00F5FF" letter-spacing="3">//</text>
+  <text class="mono" x="186" y="42" font-size="12" fill="#C9D1D9" letter-spacing="2.5">LIVE_METRICS</text>
+  <text class="mono" x="1120" y="42" font-size="11" fill="#5C6773" letter-spacing="2" text-anchor="end">AUTO-SYNC DAILY · __SYNC__</text>
+  <circle class="pulse" cx="1145" cy="38" r="3" fill="#39FF14"/>
+  <line x1="24" y1="54" x2="1176" y2="54" stroke="#1F2A37" stroke-width="1"/>
+
+  <!-- ============ MODULE A: combat stats ============ -->
+  <g class="boot">
+    <rect x="24" y="64" width="368" height="308" rx="10" fill="#0A0E1A" stroke="#1F2A37"/>
+    <rect x="24" y="64" width="368" height="2" rx="1" fill="#00F5FF" opacity="0.55"/>
+    <g stroke="#00F5FF" stroke-width="1.3" fill="none" opacity="0.85">
+      <path d="M32 80 V72 H40"/><path d="M376 72 H384 V80"/>
+    </g>
+    <rect x="38" y="84" width="4" height="13" rx="1" fill="#00F5FF"/>
+    <text class="mono" x="50" y="95" font-size="12" fill="#E6EDF3" letter-spacing="2.5" font-weight="600">COMBAT.STATS</text>
+    <text class="mono" x="376" y="95" font-size="10.5" fill="#5C6773" text-anchor="end">ALL_TIME</text>
+__COMBAT_ROWS__
+  </g>
+
+  <!-- ============ MODULE B: engagement ============ -->
+  <g class="boot" style="animation-delay:.15s">
+    <rect x="408" y="64" width="368" height="308" rx="10" fill="#0A0E1A" stroke="#1F2A37"/>
+    <rect x="408" y="64" width="368" height="2" rx="1" fill="#FF6CF0" opacity="0.55"/>
+    <g stroke="#FF6CF0" stroke-width="1.3" fill="none" opacity="0.85">
+      <path d="M416 80 V72 H424"/><path d="M760 72 H768 V80"/>
+    </g>
+    <rect x="422" y="84" width="4" height="13" rx="1" fill="#FF6CF0"/>
+    <text class="mono" x="434" y="95" font-size="12" fill="#E6EDF3" letter-spacing="2.5" font-weight="600">ENGAGEMENT</text>
+    <text class="mono" x="760" y="95" font-size="10.5" fill="#5C6773" text-anchor="end">CONTRIBUTIONS</text>
+
+    <text class="mono" x="592" y="140" font-size="40" font-weight="800" fill="#00F5FF" text-anchor="middle">__TOTAL__</text>
+    <text class="mono" x="592" y="162" font-size="11" fill="#93A4BC" letter-spacing="2" text-anchor="middle">TOTAL CONTRIBUTIONS · SINCE __SINCE__</text>
+
+    <!-- streak ring -->
+    <circle cx="592" cy="230" r="44" fill="none" stroke="#16233A" stroke-width="7"/>
+    <circle cx="592" cy="230" r="44" fill="none" stroke="#FF6CF0" stroke-width="7" stroke-linecap="round"
+            stroke-dasharray="__RING_LEN__ 276.5" transform="rotate(-90 592 230)"/>
+    <circle class="flame" cx="592" cy="186" r="4.5" fill="#FFD700" filter="url(#tglow)"/>
+    <text class="mono" x="592" y="240" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">__CUR__</text>
+    <text class="mono" x="592" y="292" font-size="10.5" fill="#FF6CF0" letter-spacing="2" text-anchor="middle">CURRENT STREAK</text>
+
+    <text class="mono" x="592" y="324" font-size="12" fill="#C9D1D9" text-anchor="middle">LONGEST <tspan fill="#00F5FF" font-weight="700">__LONG__</tspan> DAYS · __LONGDATES__</text>
+
+    <!-- 26-week sparkline -->
+    <text class="mono" x="430" y="348" font-size="9.5" fill="#5C6773" letter-spacing="1.5">LAST_26_WEEKS</text>
+__SPARK__
+  </g>
+
+  <!-- ============ MODULE C: language loadout ============ -->
+  <g class="boot" style="animation-delay:.3s">
+    <rect x="792" y="64" width="384" height="308" rx="10" fill="#0A0E1A" stroke="#1F2A37"/>
+    <rect x="792" y="64" width="384" height="2" rx="1" fill="#FFD700" opacity="0.55"/>
+    <g stroke="#FFD700" stroke-width="1.3" fill="none" opacity="0.85">
+      <path d="M800 80 V72 H808"/><path d="M1160 72 H1168 V80"/>
+    </g>
+    <rect x="806" y="84" width="4" height="13" rx="1" fill="#FFD700"/>
+    <text class="mono" x="818" y="95" font-size="12" fill="#E6EDF3" letter-spacing="2.5" font-weight="600">LANGUAGE.LOADOUT</text>
+    <text class="mono" x="1160" y="95" font-size="10.5" fill="#5C6773" text-anchor="end">TOP_6</text>
+__LANG_ROWS__
+  </g>
+
+  <circle class="run" cx="14" cy="11" r="2.4" fill="#00F5FF" filter="url(#tglow)"/>
+</svg>
