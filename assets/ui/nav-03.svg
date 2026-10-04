@@ -18,6 +18,6 @@
   <rect x="1.5" y="5.5" width="173" height="2" rx="1" fill="url(#edge)" opacity="0.55"/>
   <rect x="11" y="12" width="20" height="19" rx="4" fill="#FFD700" fill-opacity="0.12" stroke="#FFD700" stroke-opacity="0.6" stroke-width="1"/>
   <text class="mono" x="21" y="26.5" font-size="11" font-weight="700" fill="#FFD700" text-anchor="middle">03</text>
-  <text class="mono" x="41" y="26.5" font-size="11.5" fill="#E6EDF3" letter-spacing="1.5" font-weight="600">FEATURED QUESTS</text>
+  <text class="mono" x="41" y="26.5" font-size="11.5" fill="#E6EDF3" letter-spacing="1.5" font-weight="600">PROJECTS</text>
   <circle class="run" cx="6" cy="6.5" r="2.2" fill="#FFD700" filter="url(#glow)" style="animation-delay:-2.2s"/>
 </svg>
