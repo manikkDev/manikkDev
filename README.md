@@ -46,60 +46,7 @@
 
 ## `01` PLAYER PROFILE
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
-```text
-manik@dev ~ $ whoami
-
-███╗   ███╗ █████╗ ███╗   ██╗██╗██╗  ██╗
-████╗ ████║██╔══██╗████╗  ██║██║██║ ██╔╝
-██╔████╔██║███████║██╔██╗ ██║██║█████╔╝
-██║╚██╔╝██║██╔══██║██║╚██╗██║██║██╔═██╗
-██║ ╚═╝ ██║██║  ██║██║ ╚████║██║██║  ██╗
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
-
-NAME ........ Manikaraj Anburaj
-CLASS ....... Game Developer / Full-Stack Engineer
-GUILD ....... SIES Graduate School of Technology
-DEGREE ...... B.E. Computer Engineering (TODO: '20XX)
-LOCATION .... Navi Mumbai, Maharashtra, IN
-ENGINES ..... Roblox Studio . Unity . Unreal Engine
-STACK ....... MERN . TypeScript . Python . Luau . C# . C++
-TITLES ...... 2x Hackathon Winner . Content Creator
-UPTIME ...... since 2024-05 on GitHub
-STATUS ...... [ ONLINE ]  building 67 Nights in the Forest
-```
-
-</td>
-<td width="45%" valign="top">
-
-```text
-ATTRIBUTES                         LVL
-──────────────────────────────────────
-Gameplay Systems    ▰▰▰▰▰▰▰▰▰▱    90
-Luau / Roblox       ▰▰▰▰▰▰▰▰▰▱    90
-React / TypeScript  ▰▰▰▰▰▰▰▰▱▱    85
-Node / Express      ▰▰▰▰▰▰▰▰▱▱    85
-Unity / C#          ▰▰▰▰▰▰▰▱▱▱    75
-Python / ML         ▰▰▰▰▰▰▰▱▱▱    70
-Unreal / C++        ▰▰▰▰▰▰▱▱▱▱    60
-3D / Blender        ▰▰▰▰▰▱▱▱▱▱    55
-
-PASSIVES
-──────────────────────────────────────
-> Server-authoritative networking
-> Procedural animation and VFX
-> Rapid 24-48h hackathon prototyping
-> Full product ownership: UI to DB
-```
-
-</td>
-</tr>
-</table>
-
-> I design and ship interactive systems. On the game side that means multiplayer survival loops, combat, NPC AI and data persistence in Roblox (Luau), with Unity (C#) and Unreal Engine (C++) as my second and third engines. On the web side it means production-grade MERN and TypeScript stacks, often with a Python ML service behind them. I like problems where the hard part is making many moving pieces feel like one coherent experience.
+<img src="./assets/profile.svg" width="100%" alt="player profile card"/>
 
 <br/>
 
