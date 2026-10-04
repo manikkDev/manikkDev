@@ -11,12 +11,12 @@
 
 <img src="./assets/header.svg" width="100%" alt="Manikaraj Anburaj — Game Developer · Full-Stack Engineer"/>
 
-<img src="./assets/tagline.svg" width="100%" alt="Building worlds in Roblox, Unity and Unreal Engine"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=60&lines=Building+worlds+in+Roblox%2C+Unity+and+Unreal+Engine;Shipping+MERN+%2B+TypeScript+products+end-to-end;2x+Hackathon+Winner+%7C+B.E.+Computer+Engineering;Turning+ideas+into+playable%2C+shippable+systems" alt="typing intro"/>
 
 <br/>
 
 <!-- Auto-refreshed daily by .github/workflows/statusbar.yml -->
-<img src="./assets/statusbar.svg" width="100%" alt="status bar"/>
+<img src="./assets/statusbar.svg?v=3" width="100%" alt="status bar"/>
 <!-- invisible pixel keeps the komarev view counter live without showing the stock badge -->
 <img src="https://komarev.com/ghpvc/?username=manikkDev" width="1" height="1" alt=""/>
 
