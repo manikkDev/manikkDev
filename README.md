@@ -9,7 +9,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0A0A0A,30:1A0B3D,60:3A0CA3,100:00F5FF&text=MANIKARAJ%20ANBURAJ&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=Game%20Developer%20%C2%B7%20Full-Stack%20Engineer%20%C2%B7%20Content%20Creator&descSize=20&descColor=00F5FF&descAlignY=58&animation=twinkling&stroke=FF00FF&strokeWidth=1" width="100%" alt="header"/>
+<img src="./assets/header.svg" width="100%" alt="Manikaraj Anburaj — Game Developer · Full-Stack Engineer"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=60&lines=Building+worlds+in+Roblox%2C+Unity+and+Unreal+Engine;Shipping+MERN+%2B+TypeScript+products+end-to-end;2x+Hackathon+Winner+%7C+B.E.+Computer+Engineering;Turning+ideas+into+playable%2C+shippable+systems" alt="typing intro"/>
 
@@ -398,6 +398,6 @@ PASSIVES
 > press [START] to collaborate
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:00F5FF,40:3A0CA3,70:1A0B3D,100:0A0A0A&section=footer&text=Stay%20curious.%20Ship%20often.&fontSize=22&fontColor=FFFFFF&fontAlignY=70&animation=fadeIn" width="100%" alt="footer"/>
+<img src="./assets/footer.svg" width="100%" alt="Stay curious. Ship often."/>
 
 </div>
