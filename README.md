@@ -145,7 +145,7 @@
 <br/><br/>
 
 <!-- Generated daily by .github/workflows/telemetry.yml -->
-<img src="./assets/contrib.svg?v=2" width="100%" alt="contribution skyline"/>
+<img src="./profile-3d-contrib/profile-neon.svg" width="100%" alt="3D contribution graph"/>
 
 <br/>
 
