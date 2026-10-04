@@ -72,71 +72,10 @@
 
 ## `03` FEATURED QUESTS
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/manikkDev/67-nights-in-the-forest">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=manikkDev&repo=67-nights-in-the-forest&bg_color=0A0A0A&title_color=00F5FF&icon_color=FF00FF&text_color=E6EDF3&border_color=1F2A37&show_owner=false" alt="67 Nights in the Forest" width="100%"/>
-</a>
-
-**Multiplayer survival game on Roblox** — endure 67 escalating nights in a hostile forest.
-
-<img src="https://img.shields.io/badge/Luau-0A0A0A?style=flat-square&logo=lua&logoColor=00F5FF" alt=""/> <img src="https://img.shields.io/badge/Rojo-0A0A0A?style=flat-square" alt=""/> <img src="https://img.shields.io/badge/Knit-0A0A0A?style=flat-square" alt=""/> <img src="https://img.shields.io/badge/ProfileService-0A0A0A?style=flat-square" alt=""/> <img src="https://img.shields.io/badge/Wally-0A0A0A?style=flat-square" alt=""/>
-
-- Server-authoritative Knit services: data, world, spawn, time, combat, loot, rescue
-- Session-locked DataStore persistence with ProfileService
-- Day/night cycle, hunger and foraging loop, NPC enemies, cultist raids, procedural animation and VFX
-- Landmark and cave loot systems, weapon tooling, rescue progression
-
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/manikkDev/Enigma_CyberPookies">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=manikkDev&repo=Enigma_CyberPookies&bg_color=0A0A0A&title_color=00F5FF&icon_color=FF00FF&text_color=E6EDF3&border_color=1F2A37&show_owner=false" alt="Arth Saathi" width="100%"/>
-</a>
-
-**Arth Saathi** — privacy-preserving financial-risk platform for citizens and bank analysts.
-
-<img src="https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt=""/> <img src="https://img.shields.io/badge/FastAPI-0A0A0A?style=flat-square&logo=fastapi&logoColor=39FF14" alt=""/> <img src="https://img.shields.io/badge/Flower%20FL-0A0A0A?style=flat-square" alt=""/> <img src="https://img.shields.io/badge/Neo4j-0A0A0A?style=flat-square&logo=neo4j&logoColor=00F5FF" alt=""/> <img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=flat-square&logo=mongodb&logoColor=39FF14" alt=""/> <img src="https://img.shields.io/badge/Docker-0A0A0A?style=flat-square&logo=docker&logoColor=00F5FF" alt=""/>
-
-- Six-service Docker Compose stack with health checks and non-root containers
-- Horizontal federated learning (FedAvg / FedProx / FedAdam) across five bank partitions, 5.7M training rows
-- Differential privacy via Opacus RDP accounting, simulated secure aggregation
-- Neo4j fraud-ring detection with Louvain communities, DPDP-style consent center, audit trail
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/manikkDev/portfolio-web-frontend">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=manikkDev&repo=portfolio-web-frontend&bg_color=0A0A0A&title_color=00F5FF&icon_color=FF00FF&text_color=E6EDF3&border_color=1F2A37&show_owner=false" alt="Portfolio" width="100%"/>
-</a>
-
-**Gamified portfolio** — a cyberpunk HUD built as a product, not a template.
-
-<img src="https://img.shields.io/badge/React%2019-0A0A0A?style=flat-square&logo=react&logoColor=00F5FF" alt=""/> <img src="https://img.shields.io/badge/Vite%207-0A0A0A?style=flat-square&logo=vite&logoColor=FFD700" alt=""/> <img src="https://img.shields.io/badge/Framer%20Motion%2012-0A0A0A?style=flat-square&logo=framer&logoColor=FF00FF" alt=""/> <img src="https://img.shields.io/badge/Three.js-0A0A0A?style=flat-square&logo=threedotjs&logoColor=FFFFFF" alt=""/>
-
-- Terminal hero, XP bars, crosshair cursor, scan-line and circuit backgrounds
-- Lazy-loaded sections, code splitting, `prefers-reduced-motion` support
-- Backend-connected contact, ratings, YouTube cache and LinkedIn feed
-- Companion API: [portfolio-web-backend](https://github.com/manikkDev/portfolio-web-backend)
-
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/manikkDev/neurofy-frontend">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=manikkDev&repo=neurofy-frontend&bg_color=0A0A0A&title_color=00F5FF&icon_color=FF00FF&text_color=E6EDF3&border_color=1F2A37&show_owner=false" alt="Neurofy" width="100%"/>
-</a>
-
-**Neurofy** — tremor-monitoring platform with patient and doctor dashboards.
-
-<img src="https://img.shields.io/badge/React-0A0A0A?style=flat-square&logo=react&logoColor=00F5FF" alt=""/> <img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=flat-square&logo=typescript&logoColor=3178C6" alt=""/> <img src="https://img.shields.io/badge/Vite-0A0A0A?style=flat-square&logo=vite&logoColor=FFD700" alt=""/> <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=flat-square&logo=nodedotjs&logoColor=39FF14" alt=""/>
-
-- Role-based routing for patients and clinicians
-- Feature-module architecture with React Query and socket client
-- Companion API: [neurofy-backend](https://github.com/manikkDev/neurofy-backend)
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/manikkDev/67-nights-in-the-forest"><img src="./assets/quests/quest-1-67nights.svg" width="49%" alt="67 Nights in the Forest"/></a>
+<a href="https://github.com/manikkDev/Enigma_CyberPookies"><img src="./assets/quests/quest-2-arthsaathi.svg" width="49%" alt="Arth Saathi — Enigma"/></a><br/>
+<a href="https://github.com/manikkDev/portfolio-web-frontend"><img src="./assets/quests/quest-3-portfolio.svg" width="49%" alt="Portfolio Web"/></a>
+<a href="https://github.com/manikkDev/neurofy-frontend"><img src="./assets/quests/quest-4-neurofy.svg" width="49%" alt="Neurofy"/></a>
 
 <details>
 <summary><b>Open the full quest log (more projects)</b></summary>
